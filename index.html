@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Preference Assessment #1</title>      
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="reset.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <script
+          src="https://code.jquery.com/jquery-3.3.1.js"
+          integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+          crossorigin="anonymous"></script>
+        <script src="scripts.js"></script>
+    </head>
+    <body>
+        <div class="main">
+            <h1>Preference Assessment #1</h1>
+            <h2 id="heading">Please make a choice:</h2>
+            <div class="selectorContainer">
+                <div class="leftSelector">
+                    <input type="hidden" id="leftHidden">
+                    <img id="leftSelector" src=""/>
+                </div>
+                <div class="rightSelector">
+                    <input type="hidden" id="rightHidden">
+                    <img id="rightSelector" src=""/>
+                </div>
+            </div>
+            <div class="progressContainer"></div>
+            <div class="resultsContainer">
+                <div id="resultsText">
+
+                </div>
+                <div class="resultsButtonContainer">
+                    <button type="button" id="restartButton" class="btn btn-primary">Start Over</button>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
