@@ -102,7 +102,7 @@ function displaySummary() {
     $(".progressContainer").hide();
     $(".resultsContainer").show();
 
-    for(var key in selectionsMaap){
+    for(var key in selectionsMap){
       var value = selectionsMap[key];
       console.log(key + ' = ' + value);
       $("#resultsText").append("<p>" + key + " : " + value + "</p>");
